@@ -1,0 +1,25 @@
+<?page title="Auto Generated index.zul"?>
+<window title="Elevar a la N usando sumas!!" border="normal" width="600px" apply="Controller.CtrIndex">
+	<grid>
+		<auxhead>
+		<auxheader colspan="1" label= "Insertar datos a operar"/> 
+		</auxhead>
+		<columns>
+			<column label="" />
+		</columns>
+		<rows>
+			<row>
+				<label value="Valor numero base:" />
+				<textbox id="textboxBase" constraint="no empty"/>
+			</row>
+			<row>
+				<label value="Valor N al que se eleva la base" />
+				<textbox id="textboxN" constraint="no empty"/>
+			</row>
+			<row>
+				<button label="Operar" onClick="" id="btRaised"/>
+			</row>
+		</rows>
+	</grid>
+
+</window>
